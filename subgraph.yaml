@@ -6,11 +6,11 @@ schema:
 dataSources:
   - kind: ethereum/contract
     name: ConverterRegistryContract
-    network: fuji
+    network: mainnet
     source:
-      address: '0xd00ae08403B9bbb9124bB305C09058E32C39A48c'
+      address: '0xBeFe898407483f0f2fF605971FBD8Cf8FbD8B160'
       abi: ConverterRegistryContract
-      startBlock: 19185097
+      startBlock: 12568486
     mapping:
       kind: ethereum/events
       apiVersion: 0.0.4
